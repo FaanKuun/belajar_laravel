@@ -99,7 +99,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
                 <button type="submit" class="btn btn-primary">Simpan</button>
             </div>
             </form>
@@ -114,7 +114,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Modal title</h5>
+                <h5 class="modal-title">Edit Data</h5>
                 <button type="button" class="close" data-dismiss="modal"><span>&times;</span>
                 </button>
             </div>
@@ -124,23 +124,23 @@
                 <input type="hidden" class="form-control" id="id" name="id" value="{{$item->id}}">
                 <label>Nama</label>
                 <div class="form-groub">
-                    <input type="text" class="form-control" name="nama" value="{{$item->nama}}" placeholder="masukkan nama">
+                    <input type="text" class="form-control mb-4" name="nama" value="{{$item->nama}}" placeholder="masukkan nama">
                 </div>
                 <label>Judul Buku</label>
                 <div class="form-groub">
-                    <input type="text" class="form-control" name="judul_buku" value="{{$item->judul_buku}}"  placeholder="masukkan judul buku">
+                    <input type="text" class="form-control mb-4" name="judul_buku" value="{{$item->judul_buku}}"  placeholder="masukkan judul buku">
                 </div>
                 <label>Tanggal Peminjaman</label>
                 <div class="form-groub">
-                    <input type="date" class="form-control" name="tgl_peminjaman" value="{{$item->tgl_peminjaman}}"  placeholder="masukkan tanggal peminjaman">
+                    <input type="date" class="form-control mb-4" name="tgl_peminjaman" value="{{$item->tgl_peminjaman}}"  placeholder="masukkan tanggal peminjaman">
                 </div>
                 <label>Tanggal Kembali</label>
                 <div class="form-groub">
-                    <input type="date" class="form-control" name="tgl_kembali" value="{{$item->tgl_kembali}}"  placeholder="masukkan tanggal kembali">
+                    <input type="date" class="form-control mb-4" name="tgl_kembali" value="{{$item->tgl_kembali}}"  placeholder="masukkan tanggal kembali">
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
                 <button type="submit" class="btn btn-primary">Save changes</button>
             </div>
             </form>
